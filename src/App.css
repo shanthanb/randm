@@ -1,0 +1,45 @@
+body{
+    background-color:#f5f6f8;
+}
+input[type="text"]{
+    width:440px;
+    transform: translate(122%, 50%);
+    border:none;
+    height:40px;
+    box-sizing: border-box;
+    padding-left: 40px;
+   
+}
+
+input[type="text"]:focus{
+    border: 1px solid dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+    padding-left: 40px;
+}
+
+h1{
+    font-size:46px;
+    font-family: 'Bungee', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Passion One', cursive;
+    margin-bottom:100px;
+   margin-left: 36%;
+   margin-top: 100px;
+}
+.input-box{
+    position: relative;
+}
+i{
+  position: absolute;
+  margin-left: 110px;
+  margin-top: 30px;
+  color:#aaa;
+  font-size:20px;
+}
+i:focus{
+    color:dodgerblue;
+}
+
+::placeholder{
+    color:#aaa;
+}
